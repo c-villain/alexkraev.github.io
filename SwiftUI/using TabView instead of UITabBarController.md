@@ -573,9 +573,9 @@ Launching the app:
 }
   ```
   
-  ___
+___
   
- ## Applying the animation
+## Applying the animation
  
 It is quite rare when designers limit themselves only to drawing buttons in Figma forgetting about animation. 
 Moreover successful animation makes the application comfortable for using but doesn’t distract the user. 
