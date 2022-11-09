@@ -1,8 +1,8 @@
 # Moving to SwiftUI: using TabView instead of UITabBarController.
 ___
 
-*Russian version of this article you may find [here](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController%20russian) 
-or  [here](https://habr.com/ru/company/lenta_utkonos_tech/blog/674888/).*
+*Русскую версию этой статьи можно найти [здесь](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController%20russian) 
+или [здесь](https://habr.com/ru/company/lenta_utkonos_tech/blog/674888/).*
 
 *You may also read this article on [medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda).*
 
