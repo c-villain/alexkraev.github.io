@@ -532,7 +532,7 @@ struct RootTabView: View {
 }
 ```
 
-In the code above ```onCartChanged``` modifier returns a Viewwith modified cart button title.
+In the code above ```onCartChanged``` modifier returns a View with modified cart button title.
 Its implementation is quite simple. It is built around onReceive of the necessary event in the NotificationCenter.
 
 Launching the app:
