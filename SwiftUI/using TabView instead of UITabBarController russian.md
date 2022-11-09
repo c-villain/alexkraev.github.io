@@ -1,6 +1,10 @@
 # Переход на SwiftUI: внедряем TabView взамен UITabBarController.
 ___
 
+*English version of this article you may find [here](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController) 
+or  [on medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda)).*
+
+
 Внедрение SwiftUI (далее — SUI) в уже существующее приложение, написанное на UIKit, в середине 2022 г. у
 же не является вопросом времени, а скорее, определяется наличием соответствующих навыков. 
 Перевод [приложения]((https://apps.apple.com/ru/app/id582201863)) [Утконоса]((https://www.utkonos.ru/)) – одного из лидеров 
