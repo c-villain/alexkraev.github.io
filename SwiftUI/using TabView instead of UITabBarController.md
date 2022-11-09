@@ -135,7 +135,7 @@ enum TabType: Int {
 }
 ```
 
-Next, let’s design ```RootTabView {...}``` using icons from SF Symbols:
+Next, let’s design ```RootTabView {...}``` using icons from [SF Symbols](https://developer.apple.com/sf-symbols/):
 
 ```swift
 struct RootTabView: View {
