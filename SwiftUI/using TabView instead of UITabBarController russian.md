@@ -5,7 +5,9 @@ ___
 or  on [medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda).*
 
 *Вы можете также прочитать эту статью на [хабре](https://habr.com/ru/company/lenta_utkonos_tech/blog/674888/).*
+
 ___
+
 Внедрение SwiftUI (далее — SUI) в уже существующее приложение, написанное на UIKit, в середине 2022 г. у
 же не является вопросом времени, а скорее, определяется наличием соответствующих навыков. 
 Перевод [приложения]((https://apps.apple.com/ru/app/id582201863)) [Утконоса]((https://www.utkonos.ru/)) – одного из лидеров 
