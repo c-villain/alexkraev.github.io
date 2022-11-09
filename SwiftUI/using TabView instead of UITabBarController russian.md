@@ -2,7 +2,7 @@
 ___
 
 *English version of this article you may find [here](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController) 
-or  [on medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda)).*
+or  on [medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda).*
 
 
 Внедрение SwiftUI (далее — SUI) в уже существующее приложение, написанное на UIKit, в середине 2022 г. у
