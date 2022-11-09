@@ -1,4 +1,4 @@
-### Articles
+## Alex Kraev's tech blog
 ---
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
 
