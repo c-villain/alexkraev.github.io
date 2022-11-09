@@ -22,6 +22,7 @@ the screens are made up with SUI but the tab bar with UIKit.
 With the growth of the SUI-code in Utkonos, we began to gradually abandon navigation on UIKit, 
 a big step in this direction was to convert the tab bar to the TabView instead of the UITabBarController.
 ___
+
 Hello everyone! My name is [Alexander Kraev](http://linkedin.com/in/alex-kraev)! 
 In this article I want to share with you my own experience of adding TabView with all the pitfalls: when you have screens developed 
 both using SUI and UIKit. 
@@ -29,7 +30,9 @@ This article is not for those who have just started to learn SUI.
 If you are just like that, then I advise you to begin with some small features. 
 You can find more interesting posts on [my telegram channel](https://t.me/swiftui_dev) dedicated to iOS development on SwiftUI.
 ___
+
 ## Preparing the structure
+
 In our team we work using [Trunk Based Development](https://trunkbaseddevelopment.com/) (TDD). 
 If you aren’t familiar with this version control management practice then I would advise you 
 to watch [this session](https://www.youtube.com/watch?v=ykZbBD-CmP8). 
@@ -371,7 +374,9 @@ We run the app, we can see that our problems are gone:
   </p>
   
 ___
+
 ## Customizing TabView
+
 Let’s go back to the TabBar’s layout. The ```TabItem(_..)``` modifier which is available out of the box has very limited features.
 Our Tabbar is different from the basic UI of iOS, so we need to custom it. Fortunately, SUI makes it very easy to do:
 
@@ -566,6 +571,7 @@ Launching the app:
 }
   ```
   ___
+  
  ## Applying the animation
  
 It is quite rare when designers limit themselves only to drawing buttons in Figma forgetting about animation. 
@@ -870,6 +876,7 @@ Let’s run the app! Don’t you think it’s really cool?
   </p>
 
 ___
+
 ## Final refactoring
 
 Let’s now move the State proprerty selectedTab property out of the ```RootTabView```:
