@@ -3,7 +3,7 @@ ___
 
 *Russian version of this article you may find [here](https://habr.com/ru/company/lenta_utkonos_tech/blog/674888/).*
 
-*You may read this article also in [medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda).*
+*You may also read this article on [medium](https://medium.com/@lexkraev/moving-to-swiftui-using-tabview-instead-of-uitabbarcontroller-ac9fee481cda).*
 
 
 Converting UIKit project to SwiftUI (or SUI) in 2022 is no longer a matter of time. 
