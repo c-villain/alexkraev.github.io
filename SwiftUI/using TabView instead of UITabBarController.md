@@ -21,6 +21,7 @@ If the application is developed using SUI with no legacy code at all, then the t
 the screens are made up with SUI but the tab bar with UIKit. 
 With the growth of the SUI-code in Utkonos, we began to gradually abandon navigation on UIKit, 
 a big step in this direction was to convert the tab bar to the TabView instead of the UITabBarController.
+
 ___
 
 Hello everyone! My name is [Alexander Kraev](http://linkedin.com/in/alex-kraev)! 
@@ -29,6 +30,7 @@ both using SUI and UIKit.
 This article is not for those who have just started to learn SUI. 
 If you are just like that, then I advise you to begin with some small features. 
 You can find more interesting posts on [my telegram channel](https://t.me/swiftui_dev) dedicated to iOS development on SwiftUI.
+
 ___
 
 ## Preparing the structure
@@ -570,6 +572,7 @@ Launching the app:
     }
 }
   ```
+  
   ___
   
  ## Applying the animation
