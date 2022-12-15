@@ -3,10 +3,12 @@
 Hey guys! I’ve created [test project](https://github.com/c-villain/NaviBackportExample) with sample of 
 new navigation API back ported in older SwiftUI versions.
  
+ 
   <p align="center">
   <img src="sources/backportedNavStack/navstack.gif" alt="" width="400">
   </p>
-  
+ 
+ 
 One of the main question at every iOS-interview is app architecture. 
 At the same time routing in the app almost always is the side theme of discussion. 
 Moreover there are different approaches in the navigation in general and all of them have their own patterns such as navigator or coordinator.
