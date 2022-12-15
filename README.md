@@ -6,7 +6,8 @@
 
 - [Moving to SwiftUI: using TabView instead of UITabBarController](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController)
     - [Переход на SwiftUI: внедряем TabView взамен UITabBarController](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController%20russian)
-    
+
+- [Навигация в SwiftUI. Бэкпорт нового API навигации SwiftUI на iOS 14](https://c-villain.github.io/SwiftUI/BackportedNavigationStack_rus)
 ---
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
 
