@@ -25,3 +25,7 @@
 Можете создать свой тестовый проект, чтобы поработать с [этой библиотекой](https://github.com/johnpatrickmorgan/NavigationBackport). 
 
 Мой сэмпл [здесь](https://github.com/c-villain/NaviBackportExample).
+
+  <p align="center">
+  <img src="sources/backportedNavStack/navstack.gif" alt="" width="400">
+  </p>
