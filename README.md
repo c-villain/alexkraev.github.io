@@ -11,7 +11,7 @@
     - [Навигация в SwiftUI. Бэкпорт нового API навигации SwiftUI на iOS 14](https://c-villain.github.io/SwiftUI/BackportedNavigationStack_rus)
   
 ### This is useful!
-- [SwipeActions](https://github.com/c-villain/SwipeActions/README)
+- [SwipeActions](https://github.com/c-villain/SwipeActions)
 
 
 ---
