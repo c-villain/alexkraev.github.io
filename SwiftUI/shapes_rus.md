@@ -1,7 +1,7 @@
 # Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?
 
 <p align="center">
-  <img src="sources/shapes/main.jpg" alt="" width="600">
+  <img src="sources/shapes/main.jpg" alt="" width="800">
   </p>
 
 Давайте сразу к делу.
@@ -26,12 +26,12 @@ VStack {
     ZStack { 
         Rectangle()
             .fill(.indigo.opacity(0.4))
-        …
+        ...
     }
     VStack {
-        …
+        ...
     }
-  …
+  ...
 }.background(
 RoundedRectangle(cornerRadius: 16)
 .stroke(.gray, lineWidth: 1)
@@ -80,7 +80,7 @@ ZStack {
     Rectangle()
         .fill(.indigo.opacity(0.4))
         .cornerRadius(16) // <= здесь
-    …
+    ...
 }
 ```
 
@@ -100,12 +100,12 @@ ZStack {
 
 ```swift
 import Shapes
-    …
+    ...
 ZStack { 
     Rectangle()
         .fill(.indigo.opacity(0.4))
         .cornerRadius(16, corners: .tops) // <= здесь
-    …
+    ...
 }
 ```
 
@@ -123,12 +123,12 @@ VStack {
         Rectangle()
             .fill(.indigo.opacity(0.4))
             .cornerRadius(16, corners: .tops) // Здесь
-        …
+        ...
     }
   VStack {
-    …
+    ...
   }
-    …
+    ...
 }.background(
     RoundedRectangle(cornerRadius: 16)
         .stroke(.gray, lineWidth: 1)
