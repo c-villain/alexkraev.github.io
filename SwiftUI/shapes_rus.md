@@ -1,7 +1,7 @@
 # Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?
 
 <p align="center">
-  <img src="sources/shapes/main.jpg" alt="" width="400">
+  <img src="sources/shapes/main.jpg" alt="" width="600">
   </p>
 
 Давайте сразу к делу.
