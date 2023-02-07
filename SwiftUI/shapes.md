@@ -28,12 +28,12 @@ VStack {
     ZStack { 
         Rectangle()
             .fill(.indigo.opacity(0.4))
-        …
+        ...
     }
     VStack {
-        …
+        ...
     }
-  …
+  ...
 }.background(
 RoundedRectangle(cornerRadius: 16)
 .stroke(.gray, lineWidth: 1)
@@ -53,12 +53,12 @@ Let’s classically fix the overflow of the indigo-coloured background using `.c
 
 ```swift
 VStack {
-
+ ...
 }.background(
     RoundedRectangle(cornerRadius: 16)
         .stroke(.gray, lineWidth: 1)
  )
-.cornerRadius(16) // <= здесь
+.cornerRadius(16) // <= look here
 ```
 
 The final result is really similar to the original design layout:
@@ -81,8 +81,8 @@ Ok, this would be fixed by applying `.cornerRadius` not to the whole view but on
 ZStack { 
     Rectangle()
         .fill(.indigo.opacity(0.4))
-        .cornerRadius(16) // <= здесь
-    …
+        .cornerRadius(16) // <= look here
+    ...
 }
 ```
 
@@ -107,12 +107,12 @@ Let’s apply a view extension based on this new shape. You should import the pa
 
 ```swift
 import Shapes
-    …
+    ...
 ZStack { 
     Rectangle()
         .fill(.indigo.opacity(0.4))
-        .cornerRadius(16, corners: .tops) // <= здесь
-    …
+        .cornerRadius(16, corners: .tops) // <= look here
+    ...
 }
 ```
 
@@ -129,18 +129,18 @@ VStack {
     ZStack { 
         Rectangle()
             .fill(.indigo.opacity(0.4))
-            .cornerRadius(16, corners: .tops) // Здесь
-        …
+            .cornerRadius(16, corners: .tops) // look here
+        ...
     }
   VStack {
-    …
+    ...
   }
-    …
+   ...
 }.background(
     RoundedRectangle(cornerRadius: 16)
         .stroke(.gray, lineWidth: 1)
  )
-.clipped() // <= здесь
+.clipped() // <= look here
   ```
 
 Result will be the same:
@@ -149,4 +149,4 @@ Result will be the same:
   <img src="sources/shapes/10.jpg" alt="" width="400">
   </p>
 
-  На этом все!✌🏻
+  That’s all!✌🏻
