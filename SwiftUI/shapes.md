@@ -1,7 +1,7 @@
 # Why you need custom shapes for your simple SwiftUI views??
 
 <p align="center">
-  <img src="sources/shapes/main.jpg" alt="" width="400">
+  <img src="sources/shapes/main.jpg" alt="" width="600">
   </p>
 
 Hey guys! Let’s get straight to the point.
