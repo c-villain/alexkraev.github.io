@@ -17,4 +17,5 @@
 
 ### General
 
-- [Настраиваем подключение к гиту](https://c-villain.github.io/General/setting_up_connection_to_gitlab_rus)
+- [Настраиваем подключение к гиту](https://c-villain.github.io/General/setting_up_connection_to_gitlab_en)
+    - [Настраиваем подключение к гиту](https://c-villain.github.io/General/setting_up_connection_to_gitlab_rus)
