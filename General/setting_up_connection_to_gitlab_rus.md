@@ -50,7 +50,7 @@ ssh -V
 ssh-keygen -t ed25519 -C "this is my comment" 
 ```
 
-`-t ed25519` - это схема цифровой подписи (на основе эллиптической кривой Эдвардса), которая используется для генерации открытого ключа. ed25519 используется по-умолчанию. Поэтому этот параметр можно не указывать, я лишь показываю, что схему можно выбрать. Другие варианты: dsa, ecdsa, ecdsa-s, ed25519, ed25519-sk, rsa.
+`-t ed25519` - это схема цифровой подписи (на основе [эллиптической кривой Эдвардса](https://en.wikipedia.org/wiki/EdDSA)), которая используется для генерации открытого ключа. ed25519 используется по-умолчанию. Поэтому этот параметр можно не указывать, я лишь показываю, что схему можно выбрать. Другие варианты: dsa, ecdsa, ecdsa-s, ed25519, ed25519-sk, rsa.
 
 `-C "this is my comment"` - это любой комментарий для вас. Забегая вперед, скажу, что этот комментарий добавляется в конец файла с открытым ключом. Вы можете не указывать его, я привык вписывать туда название проекта и окружение, кто-то указывается рабочую почту.
 
@@ -98,7 +98,7 @@ ssh-keygen -t ed25519 -C "this is my comment"
  ssh-add ~/.ssh/gitlab.myorg.ru 
  ```
 
-где ~/.ssh/gitlab.myorg.ru - это путь до вашего файла с секретным ключом. 
+где `~/.ssh/gitlab.myorg.ru` - это путь до вашего файла с секретным ключом. 
 
  <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/10.jpg" alt="" width="600">
@@ -128,7 +128,7 @@ ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru
   <img src="sources/settings_up_connection_to_gitlab/13.jpg" alt="" width="700">
   </p> 
 
-  В поле Название (Title) по-умолчанию подставился тот самый комментарий, вы можете назвать ключ в гитлабе как хотите. Срок окончания действия ключа (Expiration date) опционален, его можно и вовсе не указывать. В зависимости от требований отдела кибербеза срок действия ключей может быть ограничен. Добавим ключ, нажмем Add key: 
+  В поле Название (Title) по-умолчанию подставился тот самый комментарий, вы можете назвать ключ в гитлабе как хотите. Срок окончания действия ключа (Expiration date) опционален, его можно и вовсе не указывать. В зависимости от требований отдела кибербеза срок действия ключей может быть ограничен. Добавим ключ, нажмем "Add key": 
 
   <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/14.jpg" alt="" width="700">
@@ -155,7 +155,7 @@ ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru
 
 ## Подключение через HTTPS
 
-Второй способ подключиться к гиту - использовать https. Он же самый простой. Здесь, чтобы авторизоваться, необходимо запровайдить токен доступ. Идем в Access tokens в Preferences и нажимаем Add new token:
+Второй способ подключиться к гиту - использовать https. Он же самый простой. Здесь, чтобы авторизоваться, необходимо запровайдить токен доступ. Идем в Access tokens в Preferences и нажимаем "Add new token":
 
  <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/18.jpg" alt="" width="700">
@@ -167,7 +167,7 @@ ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru
   <img src="sources/settings_up_connection_to_gitlab/19.jpg" alt="" width="700">
   </p>
 
-  Нажимаем Create personal access token:
+  Нажимаем "Create personal access token":
 
  <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/20.jpg" alt="" width="600">
