@@ -1,5 +1,9 @@
 # Alex Kraev's tech blog
 
+👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
+
+Follow me in [instagram](http://instagram.com/lexkraev) (you may listen to my rock and blues guitar covers there).
+
 ## Articles
 
 ### SwiftUI
@@ -13,7 +17,4 @@
 - [Why you need custom shapes for your simple SwiftUI views?](https://c-villain.github.io/SwiftUI/shapes)
     - [Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?](https://c-villain.github.io/SwiftUI/shapes_rus)
 
----
-👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
-
-Follow me in [instagram](http://instagram.com/lexkraev) (you may listen to my rock and blues guitar covers there).
+### General
