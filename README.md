@@ -18,3 +18,5 @@ Follow me in [instagram](http://instagram.com/lexkraev) (you may listen to my ro
     - [Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?](https://c-villain.github.io/SwiftUI/shapes_rus)
 
 ### General
+
+- [Настраиваем подключение к гиту](https://c-villain.github.io/General/setting_up_connection_to_gitlab_rus)
