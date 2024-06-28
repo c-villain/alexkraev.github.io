@@ -7,18 +7,17 @@
 Кликнув по иконке своего профиля, идем в Настройки / Preferences:
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/1.jpg" alt="" width="400">
+  <img src="sources/settings_up_connection_to_gitlab/1.jpg" alt="" width="600">
   </p>
 
   Здесь интересна вкладка Access Tokens, если хотим настроить доступ через https, или SSH Keys, если хотим использовать ssh.
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/2.jpg" alt="" width="400">
+  <img src="sources/settings_up_connection_to_gitlab/2.jpg" alt="" width="600">
   </p>  
 
 Мы рассмотрим оба варианта.
 
-___
 
 ## Подключение через SSH
 
@@ -44,16 +43,16 @@ ssh -V
   <img src="sources/settings_up_connection_to_gitlab/3.jpg" alt="" width="600">
   </p>  
 
- Пакет OpenSSH входит в большинство дистрибутивов ОС по умолчанию. Если по какой-либо причине он отсутствует в вашей системе, вы можете установить его при помощи вашего пакетного менеджера.
+Пакет OpenSSH входит в большинство дистрибутивов ОС по умолчанию. Если по какой-либо причине он отсутствует в вашей системе, вы можете установить его при помощи вашего пакетного менеджера.
 Теперь сгенерируем пару (открытый-закрытый ключ), для этого в консоли выполним команду:
 
 ```shell
 ssh-keygen -t ed25519 -C "this is my comment" 
 ```
 
--t ed25519 - это схема цифровой подписи (на основе эллиптической кривой Эдвардса), которая используется для генерации открытого ключа. ed25519 используется по-умолчанию. Поэтому этот параметр можно не указывать, я лишь показываю, что схему можно выбрать. Другие варианты: dsa, ecdsa, ecdsa-s, ed25519, ed25519-sk, rsa.
+`-t ed25519` - это схема цифровой подписи (на основе эллиптической кривой Эдвардса), которая используется для генерации открытого ключа. ed25519 используется по-умолчанию. Поэтому этот параметр можно не указывать, я лишь показываю, что схему можно выбрать. Другие варианты: dsa, ecdsa, ecdsa-s, ed25519, ed25519-sk, rsa.
 
--C "this is my comment" - это любой комментарий для вас. Забегая вперед, скажу, что этот комментарий добавляется в конец файла с открытым ключом. Вы можете не указывать его, я привык вписывать туда название проекта и окружение, кто-то указывается рабочую почту.
+`-C "this is my comment"` - это любой комментарий для вас. Забегая вперед, скажу, что этот комментарий добавляется в конец файла с открытым ключом. Вы можете не указывать его, я привык вписывать туда название проекта и окружение, кто-то указывается рабочую почту.
 
   <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/4.jpg" alt="" width="600">
@@ -73,7 +72,7 @@ ssh-keygen -t ed25519 -C "this is my comment"
   <img src="sources/settings_up_connection_to_gitlab/6.jpg" alt="" width="600">
   </p>  
 
-  Пара ключей сгенерировалась! Посмотрим на них =) Перейдем в указанную папку, в моем случае это /Users/c-villain/.ssh:
+  Пара ключей сгенерировалась! Посмотрим на них =) Перейдем в указанную папку, в моем случае это `/Users/c-villain/.ssh`:
 
  <p align="center">
   <img src="sources/settings_up_connection_to_gitlab/7.jpg" alt="" width="600">
@@ -105,7 +104,7 @@ ssh-keygen -t ed25519 -C "this is my comment"
   <img src="sources/settings_up_connection_to_gitlab/10.jpg" alt="" width="600">
   </p> 
 
-  Если на этапе генерации пары ключей вы все же решили добавить кодовую фразу, то эту команду надо запускать с флагом --apple-use-keychain:
+  Если на этапе генерации пары ключей вы все же решили добавить кодовую фразу, то эту команду надо запускать с флагом `--apple-use-keychain`:
 
  ```shell
 ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru 
@@ -120,25 +119,25 @@ ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru
 Теперь копируем весь публичный ключ и идем в гитлаб, раздел SSH Keys, нажимаем кнопку добавить ключ:
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/12.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/12.jpg" alt="" width="700">
   </p> 
 
   В текстовое поле копируем публичный ключ:
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/13.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/13.jpg" alt="" width="700">
   </p> 
 
   В поле Название (Title) по-умолчанию подставился тот самый комментарий, вы можете назвать ключ в гитлабе как хотите. Срок окончания действия ключа (Expiration date) опционален, его можно и вовсе не указывать. В зависимости от требований отдела кибербеза срок действия ключей может быть ограничен. Добавим ключ, нажмем Add key: 
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/14.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/14.jpg" alt="" width="700">
   </p> 
 
 Ключ успешно прописан. При повторном заходе в раздел SSH Keys мы видим:
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/15.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/15.jpg" alt="" width="700">
   </p> 
 
 Когда будете клонировать проект по ssh, то используйте путь “Clone with ssh” в меню Code:
@@ -153,20 +152,19 @@ ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru
   <img src="sources/settings_up_connection_to_gitlab/17.jpg" alt="" width="600">
   </p>
 
-___
 
 ## Подключение через HTTPS
 
 Второй способ подключиться к гиту - использовать https. Он же самый простой. Здесь, чтобы авторизоваться, необходимо запровайдить токен доступ. Идем в Access tokens в Preferences и нажимаем Add new token:
 
  <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/18.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/18.jpg" alt="" width="700">
   </p>
 
   Указываем название токена, например, Access, если нужно ограничиваем срок действия токена в Expiration date, и указываем необходимые права: как минимум, read_repository и write_repository, чтобы можно было пушить ваш код и читать из репозитория:
 
  <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/19.jpg" alt="" width="600">
+  <img src="sources/settings_up_connection_to_gitlab/19.jpg" alt="" width="700">
   </p>
 
   Нажимаем Create personal access token:
@@ -186,7 +184,7 @@ ___
   Теперь идем в гит клиент. При клонировании репозитория с проектом, клиент потребует ввести логин (это пользователь в гитлабе) и пароль, сюда и вводим токен:
 
   <p align="center">
-  <img src="sources/settings_up_connection_to_gitlab/22.jpg" alt="" width="400">
+  <img src="sources/settings_up_connection_to_gitlab/22.jpg" alt="" width="700">
   </p>
 
   На этом все, мы рассмотрели два способа настройки гита, ваш клиент настроен. 
