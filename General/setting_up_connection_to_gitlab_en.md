@@ -45,9 +45,9 @@ To use SSH to communicate with GitLab, you need
 
 - SSH version 6.5 or later. Earlier versions used an MD5 signature, which is not secure.
 
-To view the version of SSH installed on your system, run ssh -V.
+To view the version of SSH installed on your system, run
 
-```shell
+```bash
 ssh -V
 ```
 
@@ -58,7 +58,7 @@ ssh -V
 If OpenSSH is missing on your system, you can install it using package manager. 
 Now let’s generate a pair (public and private keys). Run the command in the console:
 
-```shell
+```bash
 ssh-keygen -t ed25519 -C "this is my comment" 
 ```
 
@@ -111,7 +111,7 @@ The next step is to add the secret key to the SSH agent. This is done with the f
 
   Теперь необходимо добавить секретный ключ в SSH-агент. Run the command in the console:
  
- ```shell
+ ```bash
  ssh-add ~/.ssh/gitlab.myorg.ru 
  ```
 
@@ -123,7 +123,7 @@ where `~/.ssh/gitlab.myorg.ru` is the path to the file with secret key.
 
 I have to say that if you decide to enter for the passphrase during the generating a pair of keys, you should run the command in the console with flag `--apple-use-keychain`:
 
- ```shell
+ ```bash
 ssh-add --apple-use-keychain ~/.ssh/gitlab.myorg.ru 
  ```
 
