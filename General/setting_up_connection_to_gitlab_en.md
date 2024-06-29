@@ -1,4 +1,4 @@
-# How to configure the communication with GitLab
+# How to configure git connection
 
 I have to say that this article was written using GitLab as an example; in other systems, including GitHub, the actions are exactly the same.
 
@@ -20,7 +20,7 @@ We need for the tab Access Tokens for configuring access via https, or the tab S
 Let's take a look at both variants.
 
 
-## Use SSH keys to communicate with GitLab
+## Using SSH keys to communicate with GitLab
 
 GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don’t need to supply your username and password each time.
 
@@ -171,7 +171,7 @@ It looks like this:
   </p>
 
 
-## Use Access Tokens to communicate with GitLab
+## Using Access Tokens to communicate with GitLab
 
 The regular way to communicate with GitLab is https. It is quite simple. You need to provide an access token. Go to Access tokens section in Preferences and click "Add new token":
 
