@@ -15,8 +15,8 @@
 - [Why you need custom shapes for your simple SwiftUI views?](https://c-villain.github.io/SwiftUI/shapes)
     - [Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?](https://c-villain.github.io/SwiftUI/shapes_rus)
     
-- [🧨 SwiftUI cross-platforming]()
-    - [🧨 SwiftUI и кроссплатформа]()
+- [🧨 SwiftUI cross-platforming](https://c-villain.github.io/SwiftUI/SwiftUI%20cross-platforming.md)
+    - [🧨 SwiftUI и кроссплатформа](https://c-villain.github.io/SwiftUI/SwiftUI%20cross-platforming_rus.md)
 
 ### General
 
