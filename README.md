@@ -9,11 +9,14 @@
 - [Moving to SwiftUI: using TabView instead of UITabBarController](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController)
     - [Переход на SwiftUI: внедряем TabView взамен UITabBarController](https://c-villain.github.io/SwiftUI/using%20TabView%20instead%20of%20UITabBarController%20russian)
 
-- [Navigation in SwiftUI. Backported Navigation Stack](https://c-villain.github.io/SwiftUI/BackportedNavigationStack)
-    - [Навигация в SwiftUI. Бэкпорт нового API навигации SwiftUI на iOS 14](https://c-villain.github.io/SwiftUI/BackportedNavigationStack_rus)
+- [🧭Navigation in SwiftUI. Backported Navigation Stack](https://c-villain.github.io/SwiftUI/BackportedNavigationStack)
+    - [🧭Навигация в SwiftUI. Бэкпорт нового API навигации SwiftUI на iOS 14](https://c-villain.github.io/SwiftUI/BackportedNavigationStack_rus)
 
 - [Why you need custom shapes for your simple SwiftUI views?](https://c-villain.github.io/SwiftUI/shapes)
     - [Зачем нужны нестандартные фигуры (Shapes) в самых обычных SwiftUI View?](https://c-villain.github.io/SwiftUI/shapes_rus)
+    
+- [🧨 SwiftUI cross-platforming]()
+    - [🧨 SwiftUI и кроссплатформа]()
 
 ### General
 
