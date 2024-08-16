@@ -22,3 +22,5 @@
 
 - [Configuring git connection](https://c-villain.github.io/General/setting_up_connection_to_gitlab_en)
     - [Настраиваем подключение к гиту](https://c-villain.github.io/General/setting_up_connection_to_gitlab_rus)
+
+- [🧷 SSL пиннинг](https://c-villain.github.io/General/ssl_pinning_rus)
